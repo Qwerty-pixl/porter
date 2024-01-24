@@ -1,42 +1,422 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="UTF-8">
-	<title></title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700;800&display=swap"
-		rel="stylesheet">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+	<title>портер такси в бишкеке </title>
+	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
-	<header>
-		<div class="container">
 
+	<!-- Header -->
+	<header class="header">
+		<div class="header__inner">
+			<div class="header__logo">
+				<spa class="logo-text">Портер такси</span>
+			</div>
+			<nav class="nav" id="nav">
+				<a class="nav__link" href="#">О компании</a>
+				<a class="nav__link" href="#">Услуги</a>
+				<a class="nav__link" href="#">Преимущества</a>
+				<a class="nav__link" href="#">Отзывы</a>
+				<a class="nav__link" href="#">Контакты</a>
+			</nav>
+			<div class="intro__btn_header">
+				<a class="header_telefon" href="tel:++996707887449‬">0000000000</a>
+				<a class="intro_button_header " href="https://wa.me/996707887449" target="_blank">WhatsApp</a>
+			</div>
+			<button class="nav-toggle" id="nav_toggle" type="button">
+				<span class="nav-toggle__item">Menu</span>
+			</button>
 		</div>
 	</header>
-	<section class="uslugi">
-		<div class="container"></div>
-	</section>
-	.
+
+
+	<!-- Content -->
+	<div class="page">
+
+		<!-- Intro -->
+		<section class="intro" id="intro">
+			<div class="intro__content">
+				<div class="container">
+					<div class="intro__main">
+
+						<div class="intro__inner">
+							<h1 class="intro__suptitle">ПОРТЕР ТАКСИ | БИШКЕК</h1>
+							<div class="intro__info">
+								<p>Оперативно. Выгодно. Профессионально.</p>
+								<p>На рынке с 2018 года | Работаем 24 / 7</p>
+							</div>
+						</div>
+
+						<div class="header_forms">
+							<form id="form_header">
 
 
 
-	<footer>
-		<div class="container">
+								<div class="block_btn">
+									<a class="form_btn_header" type="submit" href="tel:+996707887449"
+										style="font-size: 32px"> 0000000000‬</a>
+									<p>Всего 30 минут и Портер уже на месте. Без опозданий!</p>
+								</div>
+							</form>
+						</div>
 
-		</div>
-	</footer>
+					</div>
+				</div>
+			</div>
+		</section>
 
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-	<script src="js/core.js"></script>
+		<section class="default" id="about">
+			<div class="container">
+				<h2 class="about_title">О компании</h2>
+				<div class="about">
+					<div class="about_item_one item_back_two">
+						<p>Квартирный или офисный переезд — это сложное серьезное мероприятие, которое обычно отнимает
+							много времени, сил и нервов. Но когда за дело берутся профессионалы, переезд офиса или
+							транспортировка вещей на другую квартиру становится простым и необременительным делом.
+							Обратившись к нам, вы получаете опытную сработавшуюся команду, оснащенную всеми необходимыми
+							приспособлениями и транспортом.Мы обеспечим полную сохранность ваших вещей — в том числе
+							антиквариата, хрупких предметов и произведений искусства. Любой, даже незначительный, ущерб
+							будет полностью компенсирован</p>
+					</div>
+					<div class="about_item_two">
+						<div class="item item_back_three">
+							<p>
+								Наши Услуги:
+							</p>
+							<ul class="about_check">
+								<li>Грузоперевозки по Кыргызстану от 1 кг до 20 тонн</li>
+								<li>Транспортная логистика</li>
+								<li>Сборные грузы Бишкек-Каракол</li>
+								<li>Доставка посылок по Кыргызстану</li>
+								<li>Переезд квартир и офисов</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 
+			</div>
+		</section>
+
+
+
+		<section class="services" id="uslugi">
+			<div class="container" style="max-width: 1200px;">
+				<h2 class="services__title">Наши Услуги</h2>
+
+				<div class="services__item">
+					<div class="main main2">
+						<div class="blockuslugi">
+							<div class="imageuslu">
+								<img src="img/uslugi/1.jpg" alt="">
+							</div>
+							<div class="infouslug">
+								<h2>Перевозка грузов отдельной машиной</h2>
+							</div>
+						</div>
+						<div class="blockuslugi">
+							<div class="imageuslu">
+								<img src="img/uslugi/1-2.jpg" alt="">
+							</div>
+							<div class="infouslug">
+								<h2>Сборные грузы</h2>
+							</div>
+						</div>
+						<div class="blockuslugi">
+							<div class="imageuslu">
+								<img src="img/uslugi/2.jpg" alt="">
+							</div>
+							<div class="infouslug">
+								<h2>Перевозка грузов в машинах</h2>
+							</div>
+						</div>
+						<div class="blockuslugi">
+							<div class="imageuslu">
+								<img src="img/uslugi/3.jpg" alt="">
+							</div>
+							<div class="infouslug">
+								<h2>Экспресс доставка</h2>
+							</div>
+						</div>
+						<div class="blockuslugi">
+							<div class="imageuslu">
+								<img src="img/uslugi/4.jpg" alt="">
+							</div>
+							<div class="infouslug">
+								<h2>Квартирный переезд</h2>
+							</div>
+						</div>
+						<div class="blockuslugi">
+							<div class="imageuslu">
+								<img src="img/uslugi/5.jpg" alt="">
+							</div>
+							<div class="infouslug">
+								<h2>Услуги грузчиков</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="howwork">
+			<div class="container">
+				<h2 class="services__title">Как мы работаем?</h2>
+				<div class="howwork__inner">
+
+					<div class="howwork__block">
+						<div class="howwork__number">
+							1
+						</div>
+						<p class="howwork__info">
+							Вы звоните <a href="tel:+9967078874493">00000000000‬3</a>
+							или оставляете заявку на сайте
+						</p>
+						<img class="howwork__arrow" src="img/arrow_down.png" alt="">
+					</div>
+
+					<div class="howwork__block">
+						<div class="howwork__number">
+							3
+						</div>
+						<p class="howwork__info">
+							Заключаем договор, выставляем счет
+						</p>
+						<img class="howwork__arrow" src="img/arrow_down.png" alt="">
+					</div>
+
+					<div class="howwork__block">
+						<div class="howwork__number">
+							5
+						</div>
+						<p class="howwork__info">
+							Вы принимаете груз и получаете скидку
+							на следующую перевозку
+						</p>
+					</div>
+
+					<div class="howwork__block">
+						<div class="howwork__number">
+							2
+						</div>
+						<p class="howwork__info">
+							Подбираем машину, разрабатываем маршрут
+						</p>
+						<img class="howwork__arrow howwork__arrow-2" src="img/arrow_up.png" alt="">
+					</div>
+
+					<div class="howwork__block">
+						<div class="howwork__number">
+							4
+						</div>
+						<p class="howwork__info">
+							Доставляем груз точно в срок
+						</p>
+						<img class="howwork__arrow howwork__arrow-2" src="img/arrow_up.png" alt="">
+					</div>
+
+				</div>
+
+				<div class="howwork__inner howwork__inner__2">
+
+					<div class="howwork__block">
+						<div class="howwork__number">
+							1
+						</div>
+						<p class="howwork__info">
+							Вы звоните <a href="tel:+996707887449">0000000000</a>
+							или оставляете заявку на сайте
+						</p>
+						<img class="howwork__arrow" src="img/arrow_down.png" alt="">
+					</div>
+
+					<div class="howwork__block">
+						<div class="howwork__number">
+							2
+						</div>
+						<p class="howwork__info">
+							Подбираем машину, разрабатываем маршрут
+						</p>
+						<img class="howwork__arrow howwork__arrow-2" src="img/arrow_up.png" alt="">
+					</div>
+
+					<div class="howwork__block">
+						<div class="howwork__number">
+							3
+						</div>
+						<p class="howwork__info">
+							Заключаем договор, выставляем счет
+						</p>
+						<img class="howwork__arrow" src="img/arrow_down.png" alt="">
+					</div>
+
+					<div class="howwork__block">
+						<div class="howwork__number">
+							4
+						</div>
+						<p class="howwork__info">
+							Доставляем груз точно в срок
+						</p>
+						<img class="howwork__arrow howwork__arrow-2" src="img/arrow_up.png" alt="">
+					</div>
+
+					<div class="howwork__block">
+						<div class="howwork__number">
+							5
+						</div>
+						<p class="howwork__info">
+							Вы принимаете груз и получаете скидку
+							на следующую перевозку
+						</p>
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+
+		<!-- Services -->
+		<section class="services" id="services">
+			<div class="container">
+				<h2 class="services__title">НАШИ УСЛУГИ</h2>
+
+				<div class="services__item">
+					<div class="main">
+						<div class="services__item__content">
+							<img class="services__items__img" src="img/services/7.svg" alt="Услуга">
+							<h2 class="services__information main__text">Портер Такси</h2>
+
+						</div>
+						<div class="services__item__content">
+							<img class="services__items__img" src="img/services/3.svg" alt="Услуга">
+							<h2 class="services__information main__text">Переезды в Бишкеке</h2>
+						</div>
+						<div class="services__item__content">
+							<img class="services__items__img" src="img/services/5.svg" alt="Услуга">
+							<h2 class="services__information main__text">Безопасная перевозка сейфов</h2>
+						</div>
+						<div class="services__item__content">
+							<img class="services__items__img" src="img/services/6.svg" alt="Услуга">
+							<h2 class="services__information main__text">Такелажные работы</h2>
+						</div>
+						<div class="services__item__content">
+							<img class="services__items__img" src="img/services/2.svg" alt="Услуга">
+							<h2 class="services__information main__text">Заказ грузового транспорта</h2>
+						</div>
+						<div class="services__item__content">
+							<img class="services__items__img" src="img/services/1.svg" alt="Услуга">
+							<h2 class="services__information main__text">Сборка/Разборка мебел</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="default light-gray" id="revievs">
+			<div class="container">
+				<div class="revievs">
+
+
+					<div class="revievs_item">
+
+						<div class="revievs_desc">
+
+							<p>Первый этап
+
+								– вам привезут нужное количество упаковочного материала.
+
+								Вы упаковываете свои документы и вещи и маркируете их по типам, освобождая шкафы, столы
+								и иную мебель.
+
+								По вашему желанию – всю упаковку за вас могут сделать наши ребята.</p>
+						</div>
+					</div>
+
+
+					<div class="revievs_item">
+
+						<div class="revievs_desc">
+							<p>В назначенное время наши сотрудники приезжают к вам и начинают подготовку к вывозу вещей.
+
+								Упакованный офис или квартира грузится в наш специальный грузовик и перевозится на новое
+								место.</p>
+						</div>
+					</div>
+
+
+					<div class="revievs_item">
+						<div class="revievs_desc">
+							<p>В пункте назначения всё имущество разгружается. Мебель собирается, оргтехника
+								устанавливается, вещи - распаковываются и размещаются по плану расстановки.
+
+								Вы обустраиваетесь и наслаждаетесь новым местом.</p>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</section>
+
+
+		<!-- clients -->
+		<section class="clients" id="contacts">
+			<div class="container">
+
+				<div class="clients__block__items">
+					<div class="forms">
+
+						<a href="tel:+000 000 000 000 " class="form_btn" style="max-width: 100%;">0000 000 000</a>
+
+					</div>
+					<div class="client_item_two">
+						<div class="client_item_two_content">
+							<h2>Реквизиты</h2>
+							<a class="header_telefon" href="tel:+996707887449‬">0000 000 000</a>
+							<a class="intro_button_header " href="https://wa.me/000 000000"
+								target="_blank">WhatsApp</a>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Footer -->
+			<footer class="team">
+				<div class="container">
+					<div class="team_contacts">
+						<div class="team_item">
+							<a class="header_telefon" href="tel:+996707887449‬">0000 000 000‬</a>
+							<a class="intro_button_header " href="https://wa.me/000000000"
+								target="_blank">WhatsApp</a>
+						</div>
+						<div class="team_item_two">
+							<a href="#about">О компании</a>
+							<a href="#services">Преимущества</a>
+							<a href="#revievs">Отзывы</a>
+							<a href="#contacts">Контакты</a>
+						</div>
+						<div class="team_item_two">
+							<h2>Porter Taxi Biskek</h2>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</section>
+	</div>
+
+
+
+	<script src="js/libs.min.js"></script>
+	<script src="plagins/maskedinput/jquery.maskedinput.min.js"></script>
+	<script src="js/app.js"></script>
+	
 </body>
+
 
 </html>
