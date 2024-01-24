@@ -20,29 +20,7 @@ a {
 	text-decoration: none;
 }
 
-.kor   {
-	list-style: none;
-	color: #000000;
-    font-size: 20px;
-    font-family: 'FuturaPT',Arial,sans-serif;
-    line-height: 1.15;
-    font-weight: 400;
-    background-position: center center;
-    border-color: transparent;
-    border-style: solid;
-	padding: 0 10px;
-}
-.email{
-	list-style: none;
-	color: #000000;
-    font-size: 20px;
-    font-family: 'FuturaPT',Arial,sans-serif;
-    line-height: 1.15;
-    font-weight: 400;
-    background-position: center center;
-    border-color: transparent;
-    border-style: solid;
-}
+
 ul li:last-child {
 	margin-bottom: 0;
 }
@@ -190,100 +168,6 @@ body {
 	transform: translate(-50%, -50%);
 } */
 
-.main_btn {
-	display: block;
-	width: 200px;
-	/* height: 40px; */
-	line-height: 40px;
-	font-size: 12px;
-	font-family: sans-serif;
-	text-decoration: none;
-	color: #333;
-	border: 1px solid #333;
-	letter-spacing: 2px;
-	text-align: center;
-	position: relative;
-	transition: all .35s; 
-}
-
-.main_btn span {
-	position: relative;
-	z-index: 2;
-}
-
-.main_btn:after {
-	position: absolute;
-	content: "";
-	top: 0;
-	left: 0;
-	width: 0;
-	height: 100%;
-	background-color: #1f5bff;
-	transition: all .35s;
-}
-
-.main_btn:hover {
-	color: #fff;
-}
-
-.main_btn:hover:after {
-	width: 100%;
-}
-
-.main_logo {
-	width: 200px;
-}
-
-.main {
-	padding-top: 10px ;
-	top: 0;
-	left: 0;
-	right: 0;
-}
-
-.pogrib {
-	padding: 20px 0;
-}
-
-a {
-	color: #000;
-}
-
-header {
-	opacity: 0.8;
-	background-color: #ffffff;
-	background-position: center center;
-	border-color: transparent;
-	border-style: solid;
-	top: 0;
-	left: 0;
-	right: 0;
-	position: sticky
-}
-
-.menu {
-	display: flex;
-}
-
-.bish {
-	background-image: url('https://static.tildacdn.com/tild3133-6138-4863-b138-323638646264/Baground.jpg');
-	height: 100vh;
-	background-color: #000000;
-	background-position: 0.000% 35.026%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	border-color: transparent;
-}
-.shet{
-	color: #ffffff;
-    font-size: 20px;
-    font-family: 'Unbounded',Arial,sans-serif;
-    line-height: 1.55;
-    font-weight: 400;
-    background-position: center center;
-    border-color: transparent;
-    border-style: solid;
-}
-.bish_text{
-	max-width: 800px;
+.header{
+	background-image: url();
 }
